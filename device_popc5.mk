@@ -5,7 +5,7 @@ $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
 $(call inherit-product-if-exists, vendor/Micromax/A102/A102-vendor.mk)
 
-LOCAL_PATH := device/Micromax/A102
+LOCAL_PATH := device/Alcatel/popc5
 
 PRODUCT_CHARACTERISTICS := default
 
@@ -162,8 +162,8 @@ PRODUCT_PROPERTY_OVERRIDES := \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.media.use-awesome=true
 
-PRODUCT_NAME := full_A102
-PRODUCT_DEVICE := A102
+PRODUCT_NAME := full_popc5
+PRODUCT_DEVICE := popc5
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 854
