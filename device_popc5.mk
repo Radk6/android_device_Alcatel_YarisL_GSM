@@ -3,7 +3,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
-$(call inherit-product-if-exists, vendor/Micromax/A102/A102-vendor.mk)
+$(call inherit-product-if-exists, vendor/Alcatel/popc5/popc5-vendor.mk)
 
 LOCAL_PATH := device/Alcatel/popc5
 
