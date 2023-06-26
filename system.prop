@@ -1,5 +1,5 @@
 #
-# system.prop for Micromax A102
+# system.prop for Alcatel OneTouch Pop C5
 #
 
 rild.libpath=/system/lib/mtk-ril.so
