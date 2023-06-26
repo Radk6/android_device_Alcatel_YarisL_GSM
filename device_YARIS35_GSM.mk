@@ -3,9 +3,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
-$(call inherit-product-if-exists, vendor/Alcatel/popc5/popc5-vendor.mk)
+$(call inherit-product-if-exists, vendor/Alcatel/YARIS35_GSM/YARIS35_GSM-vendor.mk)
 
-LOCAL_PATH := device/Alcatel/popc5
+LOCAL_PATH := device/Alcatel/YARIS35_GSM
 
 PRODUCT_CHARACTERISTICS := default
 
