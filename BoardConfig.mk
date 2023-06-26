@@ -1,7 +1,7 @@
 # inherit from the proprietary version
--include vendor/Alcatel/popc5/BoardConfigVendor.mk
+-include vendor/Alcatel/YARIS35_GSM/BoardConfigVendor.mk
 
-LOCAL_PATH := device/Alcatel/popc5
+LOCAL_PATH := device/Alcatel/YARIS35_GSM
 
 # Off NINJA
 #USE_NINJA := false
@@ -35,7 +35,7 @@ TARGET_USERIMAGES_USE_EXT4:=true
 TARGET_USERIMAGES_SPARSE_EXT_DISABLED := false
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := popc5
+TARGET_OTA_ASSERT_DEVICE := YARIS35_GSM
 
 # MTK HARDWARE
 OLD_KERNEL := true
