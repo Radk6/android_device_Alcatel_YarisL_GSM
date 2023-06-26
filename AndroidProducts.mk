@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_popc5.mk
+    $(LOCAL_DIR)/device_YARIS35_GSM.mk
