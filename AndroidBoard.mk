@@ -10,4 +10,4 @@ $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr:
 endif
 
 # include the non-open-source counterpart to this file
--include vendor/Alcatel/YARIS35_GSM/AndroidBoardVendor.mk
+-include vendor/Alcatel/YarisL_GSM/AndroidBoardVendor.mk
