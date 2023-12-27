@@ -1,7 +1,7 @@
 # inherit from the proprietary version
--include vendor/Alcatel/YARIS35_GSM/BoardConfigVendor.mk
+-include vendor/Alcatel/YarisL_GSM/BoardConfigVendor.mk
 
-LOCAL_PATH := device/Alcatel/YARIS35_GSM
+LOCAL_PATH := device/Alcatel/YarisL_GSM
 
 # Off NINJA
 #USE_NINJA := false
@@ -35,7 +35,7 @@ TARGET_USERIMAGES_USE_EXT4:=true
 TARGET_USERIMAGES_SPARSE_EXT_DISABLED := false
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := YARIS35_GSM
+TARGET_OTA_ASSERT_DEVICE := YarisL_GSM
 
 # MTK HARDWARE
 OLD_KERNEL := true
